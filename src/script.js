@@ -1,9 +1,13 @@
-// Setup
-function testNotEqual(val) {
-    if (val != 99) { // Change this line
-      return "Not Equal";
+function testGreaterThan(val) {
+    if (val>100) {  // Change this line
+      return "Over 100";
     }
-    return "Equal";
+  
+    if (val>10) {  // Change this line
+      return "Over 10";
+    }
+  
+    return "10 or Under";
   }
   
-  testNotEqual(10);
+  testGreaterThan(10);
