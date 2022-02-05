@@ -9,5 +9,5 @@ function testGreaterThan(val) {
   
     return "10 or Under";
   }
-  
-  testGreaterThan(10);
+   
+  testGreaterThan(10);  
